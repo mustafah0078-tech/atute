@@ -78,11 +78,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenWhatsApp }) => {
 
             {/* مزايا سريعة تعزز الثقة والمظهر الراقي للمعرض */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              <div className="flex items-center gap-2.5 text-xs sm:text-sm text-[#344638]/85 bg-white/70 p-3 rounded-2xl border border-[#CBD5CD]/40 shadow-2xs">
+              <div className="flex items-center gap-2.5 text-xs sm:text-sm text-[#344638]/85 bg-white/70 p-3 rounded-2xl border border-[#CBD5CD]/40 shadow-xs">
                 <Ruler className="w-4 h-4 text-[#5D705F] shrink-0" />
                 <span>تفصيل دقيق حسب المقاس</span>
               </div>
-              <div className="flex items-center gap-2.5 text-xs sm:text-sm text-[#344638]/85 bg-white/70 p-3 rounded-2xl border border-[#CBD5CD]/40 shadow-2xs">
+              <div className="flex items-center gap-2.5 text-xs sm:text-sm text-[#344638]/85 bg-white/70 p-3 rounded-2xl border border-[#CBD5CD]/40 shadow-xs">
                 <ShieldCheck className="w-4 h-4 text-[#5D705F] shrink-0" />
                 <span>مسارات ألمنيوم صامتة</span>
               </div>
