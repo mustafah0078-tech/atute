@@ -12,7 +12,11 @@
 
 import heroWaveImg from '../assets/images/hero_room_wave_1791208366370.jpg';
 import heroRollerImg from '../assets/images/hero_room_roller_1791208377623.jpg';
-import classicDrapesImg from '../assets/images/collection_classic_drapes_1791208389454.jpg';
+
+// صور مجموعات كاملة مركبة على النوافذ (Complete Installed Curtains over Windows)
+import collectionInstalledWaveImg from '../assets/images/collection_installed_wave_1791285362260.jpg';
+import collectionInstalledRollerImg from '../assets/images/collection_installed_roller_1791285375705.jpg';
+import collectionInstalledClassicImg from '../assets/images/collection_installed_classic_1791285392676.jpg';
 
 // أقمشة مخصصة غير مكررة
 import linenTextureImg from '../assets/images/fabric_texture_linen_1791208398645.jpg';
@@ -193,7 +197,7 @@ export const COLLECTIONS: CollectionItem[] = [
     subtitle: 'انسيابية مثالية من السقف إلى الأرض',
     description: 'تم تصميم الستائر الويفي بنظام مسارات متطورة تضمن بقاء التموجات متناسقة وموحدة. تضفي على المجالس وغرف المعيشة إحساساً بالفخامة والارتفاع المعماري.',
     fullness: 'نسبة امتلاء 2.5x أو 2.0x',
-    image: heroWaveImg,
+    image: collectionInstalledWaveImg,
     defaultColorId: 'calm_sage',
     colorOptions: [
       { id: 'calm_sage', nameAr: 'أخضر هادئ', hex: '#5D705F', blendColor: '#5D705F', shadowColor: '#28362A', available: true },
@@ -217,7 +221,7 @@ export const COLLECTIONS: CollectionItem[] = [
     subtitle: 'حلول ذكية للمساحات المعاصرة والمكاتب',
     description: 'تعتبر ستائر الرول الخيار الأول للمساحات الهادئة ذات الطابع المعماري البسيط. تتوفر بدرجات عزل متنوعة بدءاً من تصفية أشعة الشمس الناعمة وحتى العزل الكامل للضوء والحرارة.',
     fullness: 'تصميم مسطح مدمج مع صندوق علوي أنيق',
-    image: heroRollerImg,
+    image: collectionInstalledRollerImg,
     defaultColorId: 'beige',
     colorOptions: [
       { id: 'beige', nameAr: 'بيج', hex: '#C7B59D', blendColor: '#C4B298', shadowColor: '#5A4A35', available: true },
@@ -241,7 +245,7 @@ export const COLLECTIONS: CollectionItem[] = [
     subtitle: 'أناقة خالدة بتطريزات وكسرات تقليدية متقنة',
     description: 'تجمع بين فخامة الماضي ودقة التنفيذ الحديث. تزدان بربطات قماشية جانبية (Tiebacks) مع كسرات فرنسية أو بنش بليت تعكس الرقي والأصالة في المجالس وصالونات الاستقبال.',
     fullness: 'نسبة امتلاء تصل إلى 3.0x',
-    image: classicDrapesImg,
+    image: collectionInstalledClassicImg,
     defaultColorId: 'beige',
     colorOptions: [
       { id: 'beige', nameAr: 'بيج رملي', hex: '#C7B59D', blendColor: '#C4B298', shadowColor: '#5A4A35', available: true },
