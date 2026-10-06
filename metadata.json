@@ -1,0 +1,6 @@
+{
+  "name": "ستائر | معرض الستائر والأقمشة الفاخرة",
+  "description": "معرض ستائر راقٍ يقدّم ستائر ويفي ورول وكلاسيكية مع تجربة تفاعلية لتجربة الألوان والأقمشة لبيتك.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
